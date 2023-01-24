@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 11px 40px 10px rgba(154, 170, 207, 0.13);
+}
+.home,
+.search,
+.bag {
+  height: 20px;
+}
+
+.home {
+  margin-left: 30px;
+}
+
+.search {
+  margin-right: auto;
+}
+.bag {
+  margin-right: 3px;
+}
+a {
+  margin: 0 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #595963;
+}
+
+.ginger {
+  width: 700px;
+  height: 430px;
+}
+.product,
+.wishlist {
+  color: #9b9b9b;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+.big-sale {
+  margin-top: 2%;
+  margin-left: 35;
+}
+
+.last-minute {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+
+  color: #595963;
+}
+
+.sale-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 55px;
+
+  color: #38383e;
+}
+
+.lil-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #9b9b9b;
+}
+.shoping-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+  margin-top: 190;
+  width: 200px;
+  height: 50px;
+  background: #38383e;
+  box-shadow: 0px 10px 24px 17px rgba(56, 56, 62, 0.12);
+  border-radius: 10px;
+}
+
+.shop-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #ffffff;
+}
+.buttons {
+  margin-top: 50px;
+}
+.left-button {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+  width: 587px;
+  height: 144px;
+  border: 3px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 28px;
+}
+
+.right-button {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  width: 587px;
+  height: 144px;
+  border: 3px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 28px;
+}
+
+.collection-grey {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #9b9b9b;
+}
+
+.collection-black {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #38383e;
+}
